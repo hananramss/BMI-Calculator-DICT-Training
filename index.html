@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BMI Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="display">
+            <div id="result"></div> 
+            <p id="category"></p>
+        </div>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="script.js"></script>
+
+        <div class="row">
+            <label for="height-val">Height (cm):</label>
+            <input id="height-val" type="number" name="height" placeholder="Your Height">
+        </div>
+
+        <div class="row1">
+            <label for="weight-val">Weight (kg):</label>
+            <input id="weight-val" type="number" name="height" placeholder="Your Weight">
+        </div>
+        
+        <div class="btn">
+            <button id="finalRes" type="button" class="bmi" onclick="calculate()">Calculate BMI</button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
