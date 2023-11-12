@@ -18,3 +18,9 @@ How to Use:
 2. Enter your height in centimeters.
 3. Click the "Calculate BMI" button.
 4. View your BMI result and its interpretation
+
+CSS and code were inspired by: [I forget], but the functionality, including the input of weight, height, and interpretation identification, is my work.
+
+
+Output of the Code:
+![Screenshot 2023-11-12 160735](https://github.com/hananramss/BMI-Calculator-DICT-Training/assets/119469707/60b12f3d-2a93-47c3-b967-0c4a4f0bf29f)
